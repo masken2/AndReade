@@ -15,7 +15,6 @@ public class FriendsFragment extends BaseFragment {
     private View view;
     @Override
     protected View initView(LayoutInflater inflater) {
-//        inflater.inflate(R.layout.fragment_friends);
         return null;
     }
 
