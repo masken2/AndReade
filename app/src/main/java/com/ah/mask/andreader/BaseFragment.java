@@ -26,7 +26,13 @@ public abstract class BaseFragment extends Fragment {
         return view;
     }
 
+    /**
+     *init view
+     */
     protected  abstract View initView(LayoutInflater inflater);
 
+    /**
+     * init Date
+     */
     protected abstract void initDate(Bundle savedInstanceState);
 }
