@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import com.ah.mask.andreader.BaseFragment;
+import com.ah.mask.andreader.R;
 
 /**
  * 新闻界面
@@ -15,7 +16,8 @@ public class FriendsFragment extends BaseFragment {
     private View view;
     @Override
     protected View initView(LayoutInflater inflater) {
-        return null;
+        view=inflater.inflate(R.layout.fragment_friends,null);
+        return view;
     }
 
     @Override

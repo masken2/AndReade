@@ -16,7 +16,8 @@ public class SettingFragment extends BaseFragment {
     private View view;
     @Override
     protected View initView(LayoutInflater inflater) {
-        return null;
+        view =inflater.inflate(R.layout.fragment_person,null);
+        return view;
     }
 
     @Override

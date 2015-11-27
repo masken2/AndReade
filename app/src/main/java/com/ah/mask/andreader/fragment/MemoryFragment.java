@@ -16,7 +16,8 @@ public class MemoryFragment extends BaseFragment {
     private View view;
     @Override
     protected View initView(LayoutInflater inflater) {
-        return null;
+        view =inflater.inflate(R.layout.frgment_meomory,null);
+        return view;
     }
 
     @Override
