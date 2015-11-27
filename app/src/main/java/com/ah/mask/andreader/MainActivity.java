@@ -5,6 +5,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 import com.ah.mask.andreader.adapter.MainFragmentAdapter;
+import com.ah.mask.andreader.base.BaseActivity;
+import com.ah.mask.andreader.base.BaseFragment;
 import com.ah.mask.andreader.fragment.FriendsFragment;
 import com.ah.mask.andreader.fragment.MemoryFragment;
 import com.ah.mask.andreader.fragment.NewsFragment;
@@ -13,7 +15,7 @@ import com.ah.mask.andreader.fragment.SettingFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private ViewPager mViewPager;
     private MainFragmentAdapter adapter;

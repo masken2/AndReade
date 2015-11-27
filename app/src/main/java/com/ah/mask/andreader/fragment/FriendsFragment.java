@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.ah.mask.andreader.BaseFragment;
+import com.ah.mask.andreader.base.BaseFragment;
 import com.ah.mask.andreader.R;
 
 /**

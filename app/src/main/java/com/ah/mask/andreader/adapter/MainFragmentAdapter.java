@@ -6,7 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.ah.mask.andreader.BaseFragment;
+import com.ah.mask.andreader.base.BaseFragment;
 
 import java.util.List;
 

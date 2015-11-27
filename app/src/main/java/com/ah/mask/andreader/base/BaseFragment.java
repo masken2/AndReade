@@ -1,4 +1,4 @@
-package com.ah.mask.andreader;
+package com.ah.mask.andreader.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
