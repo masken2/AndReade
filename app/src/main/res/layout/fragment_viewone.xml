@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00ff00"
     android:orientation="vertical">
 
-
-    <com.ah.mask.andreader.view.SlideViewpager
-        android:id="@+id/view_pager"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Viewpager1"
+        android:id="@+id/tv"
+        />
 </LinearLayout>
