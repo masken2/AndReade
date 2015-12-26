@@ -20,6 +20,7 @@ public class SettingFragment extends BaseFragment {
         return view;
     }
 
+
     @Override
     protected void initDate(Bundle savedInstanceState) {
 

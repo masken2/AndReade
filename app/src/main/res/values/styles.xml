@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <!--View的样子-->
+    <style name="view_sylte">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/app_view_height</item>
+        <item name="android:background">@color/view_1</item>
+    </style>
+
 </resources>
