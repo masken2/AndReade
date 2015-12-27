@@ -1,3 +1,12 @@
 <resources>
+
     <string name="app_name">AndReader</string>
+    <string name="user_login">请登录</string>
+    <string name="user_to_friend">推荐给好友</string>
+    <string name="user_bund_user">绑定社交账号</string>
+    <string name="user_setting">系统设置</string>
+    <string name="user_about">关于并读</string>
+    <string name="user_feack">意见反馈</string>
+    <string name="user_find_news">发现有新版本</string>
+
 </resources>

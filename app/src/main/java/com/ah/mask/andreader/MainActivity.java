@@ -15,6 +15,9 @@ import com.ah.mask.andreader.fragment.SettingFragment;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 程序主界面
+ */
 public class MainActivity extends BaseActivity {
 
     private ViewPager mViewPager;
